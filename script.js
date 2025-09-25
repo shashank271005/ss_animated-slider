@@ -1,5 +1,4 @@
-//............................................................... Script ...................................................................
-// Data for the sections
+
 let h1Texts = ["Pear", "Apple", "Exotic"]; // Add your h1 texts here
 let logoColors = [
   "var(--pear-logo)",
