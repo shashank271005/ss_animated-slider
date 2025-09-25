@@ -1,12 +1,12 @@
 
-let h1Texts = ["Pear", "Apple", "Exotic"]; // Add your h1 texts here
+let h1Texts = ["Pear", "Apple", "Exotic"]; 
 let logoColors = [
   "var(--pear-logo)",
   "var(--apple-logo)",
   "var(--exotic-logo)"
-]; // Add your logo colors here
-let keyframes = ["wave-pear-effect", "wave-apple-effect", "wave-exotic-effect"]; // Add your keyframes here
-// Normal GSAP animation.......
+]; 
+let keyframes = ["wave-pear-effect", "wave-apple-effect", "wave-exotic-effect"]; 
+
 gsap.from(".fruit-image ", { y: "-100vh", delay: 0.5 });
 gsap.to(".fruit-image img", {
   x: "random(-20, 20)",
@@ -18,7 +18,7 @@ gsap.to(".fruit-image img", {
   repeat: -1
 });
 
-// get the elements
+
 const waveEffect = document.querySelector(".wave");
 const sections = document.querySelectorAll(".section");
 const prevButton = document.getElementById("prevButton");
