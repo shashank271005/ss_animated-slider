@@ -13,7 +13,7 @@ img {
 body {
   overflow: hidden !important;
 }
-a:focus {
+a:focus {          
   outline: none;
   box-shadow: none;
 }
