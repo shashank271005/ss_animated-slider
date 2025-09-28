@@ -11,7 +11,7 @@ gsap.from(".fruit-image ", { y: "-100vh", delay: 0.5 });
 gsap.to(".fruit-image img", {
   x: "random(-20, 20)",
   y: "random(-20, 20)",
-  zIndex: 22,
+  zIndex: 22,    
   duration: 2,
   ease: "none",
   yoyo: true,
