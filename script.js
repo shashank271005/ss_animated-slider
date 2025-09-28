@@ -16,7 +16,7 @@ gsap.to(".fruit-image img", {
   ease: "none",
   yoyo: true,
   repeat: -1
-});
+});  
 
 
 const waveEffect = document.querySelector(".wave");
